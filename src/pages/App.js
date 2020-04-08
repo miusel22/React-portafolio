@@ -11,7 +11,7 @@ const App = () => {
   return (//desde el padre podemos controlar el estado global.
     //le estamos enviando los props de acuerdo al arreglo que hicimos.
     <> 
-  
+  <div class="container">
       <Header
     
       />
@@ -28,7 +28,7 @@ const App = () => {
      <Main />
      <Footer/>
    
-
+     </div>
  
     </>
   );

@@ -5,7 +5,7 @@ import '../styles/style.css';
 const projects = () => {
     return ( 
 <>
-<div class="col-12 col-md-12 col-sm-12 opacar">
+<div class="col-6 col-md-6 col-sm-12 opacar">
 
 
         <h2 class="titulo" id="port">Mis proyectos </h2>
