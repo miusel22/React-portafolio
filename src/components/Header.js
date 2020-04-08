@@ -13,7 +13,7 @@ const Header  = props => (
         <div class="container-{breakpoint}  justify-content-center">
             <nav class="navbar navbar-inverse  navbar-expand-lg navbar-dark bg-dark justify-content-between">
                 <a class="navbar-brand" href="#">
-                    <h2 class="nombre">Maria Camila Vélez</h2>
+                    <h2 class="nombre">Maria Camila Vélez Hola</h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
