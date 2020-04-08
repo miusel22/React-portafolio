@@ -6,10 +6,7 @@ body{
 .alinear{
     text-align: center;
 }
-.container{
-     /*el ancho*/
-    margin: 0 auto;
-}
+
 .intro{
     display: flex;
 justify-content: space-between;
