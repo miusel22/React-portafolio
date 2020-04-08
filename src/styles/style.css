@@ -1,0 +1,123 @@
+body{
+
+    background-image: url(../img/fondo.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+.alinear{
+    text-align: center;
+}
+.container{
+     /*el ancho*/
+    margin: 0 auto;
+}
+.intro{
+    display: flex;
+justify-content: space-between;
+text-align: center;
+padding: 80px 0 0 80px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
+}
+
+.img{
+    border-radius: 100px;
+    height:"auto";
+    width: 300px;
+}
+.banner{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color:#F5F5F5;
+}
+
+.img:hover{
+    background-image: url(../img/Camila.jpg);
+}
+.yo{
+    background-color:black;
+    width: 100%;
+}
+.titulo{
+    margin-top: 45px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:black;
+  
+    color:#F5F5F5;
+}
+.banner{
+    margin-top: 45px;
+    background-image: url(../img/cait.jpg);
+    height: 600px;
+}
+
+.card-img-top:hover{
+    background-image: url(../img/omg.jpg);
+}
+
+.descripcion{
+    font-family: 'Courier New', Courier, monospace;
+    color:#F5F5F5;
+    font-size: 20px;
+}
+
+ .banner:hover{
+    background-image: url(../img/omg.jpg) ;
+    background-repeat: no-repeat;
+  
+}
+.titulo:hover{
+margin-top: 45px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+background-color:#535353;
+
+color:#F5F5F5;}
+
+
+.descripcion{
+    font-family: 'Courier New', Courier, monospace;
+    color:#F5F5F5;
+    font-size: 20px;
+}
+
+.nombreGrupo{
+    
+        font-family:monospace;;
+        background-color:#616161;
+        color:#F5F5F5;
+        font-size: 35px;
+    
+    }
+
+    .copy{
+        background-color: black;
+        text-align: center;
+    }
+
+  
+    .edu{
+        font-family: 'Courier New', Courier, monospace;
+        color:#F5F5F5;
+     margin: 0 auto;
+    }
+
+    .footer{
+        font-family:monospace;;
+    background-color:black;
+    color:#F5F5F5;
+    font-size: 15px;
+opacity: 0.5;
+    }
+    .header:hover {
+        font-family:monospace;;
+        background-color:#616161;
+        color:#F5F5F5;
+        font-size: 20px;
+    
+    }
+    .opacar{
+        opacity: 0.7;
+        background-color: black;
+    }
+   

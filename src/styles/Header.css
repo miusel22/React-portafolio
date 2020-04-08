@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+/* ---------------------------------cambio------------------------------ */
+
+.header{
+    font-family:monospace;;
+    background-color:black;
+    color:#F5F5F5;
+    font-size: 15px;
+opacity: 0.7;
+}
+
+.nombreGrupo {
+    display: flex;
+    /* border: 1px #000 solid; */
+    width: 50%;
+}
+
+.nombreGrupo .name {
+    display: block;
+    margin: auto;
+}
+
+.container-nav {
+    /* border: 1px red solid; */
+    width: 50%;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar ul li {
+    list-style: none;
+}
+
+
+
+
+@media (max-width: 320px) {
+    .nombreGrupo {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-nav {
+        width: 100%;
+        height: 45px;
+    }
+}
+
+@media (min-width: 321px) {
+    .menu {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex;
+        width: 100%;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu {
+        display: flex;
+        width: 100%;
+        height: 60px;
+    }
+}
+
+
+/* ------------------container 4 cambio de letra--------------------- */
+
+@media (max-width: 320px) {
+    .nombreGrupo p {
+        font-size: 10px;
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media (max-width: 321px) {
+    .nombreGrupo p {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nombreGrupo p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nombreGrupo p {
+        font-size: 16px;
+    }
+}
+
+
+/* ----------------container-nav cambio de letra------------ */
+
+@media (max-width: 320px) {
+    .container-nav ul li a {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 321px) {
+    .container-nav ul li a {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-nav ul li a {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-nav ul li a {
+        font-size: 15px;
+    }
+}
+
+.container3 {
+   
+    height: 490px;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+
+/* ---------------------------------cambio------------------------------ */
+
+.header .menu .container-nav ul li {
+    padding-left: 5px;
+    /* align-items: center; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.header .menu .container-nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.nombreGrupo .name {
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 320px) {
+    .container3 {
+        height: 316px;
+    }
+}
+
+@media (min-width: 321px) {
+    .container3 {
+        height: 361px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container3 {
+        height: 361px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container3 {
+        height: 490px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nombreGrupo .name {
+        position: absolute;
+        top: 19.5px;
+        left: 45px;
+        /* right: 20%; */
+    }
+    .container-nav ul {
+        position: absolute;
+        right: 45px;
+    }
+}
+
