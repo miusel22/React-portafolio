@@ -18,13 +18,13 @@ class Main extends Component {
     return (
       
         <>
-        <div class="container">
+        
         <Educaciones/>
         <Projets Data={this.props.Data}/>
         
          <Experiencias/>
          
-         </div>
+         
     </>
     );
   }
