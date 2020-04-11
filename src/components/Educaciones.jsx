@@ -4,7 +4,7 @@ import Educacion from './Educacion';
 const Educaciones = (props) => {
     return ( 
 <>
-<div class="col-6 col-md-6 col-sm-12 opacar">
+<div class="col-12 col-md-12 col-sm-12 opacar">
 
 
 <h2 class="titulo" id="xp">Educación</h2>

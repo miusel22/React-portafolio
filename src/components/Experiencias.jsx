@@ -2,8 +2,10 @@ import React from 'react';
 import Experiencia from './Experiencia';
 
 const Experiencias = (props) => {
+   
     return ( 
 <>
+
 <div class="col-12 col-md-12 col-sm-12 opacar">
 
 
